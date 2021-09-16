@@ -1,0 +1,27 @@
+
+/* --------------- Universal ------------------*/
+
+* {
+    
+}
+
+
+/* -------------- Main styles --------------- */
+header {
+    background-color: lightgray;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-bar, .main-nav {
+    display: flex;
+    flex-direction: column,
+}
+
+.main-nav {
+    
+}
+
+/* -------------- Media Queries -------------- */
