@@ -8,20 +8,32 @@
 
 /* -------------- Main styles --------------- */
 header {
-    background-color: lightgray;
+    background-color: lightgray;  
 }
 
 li {
     list-style: none;
 }
 
-.nav-bar, .main-nav {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.nav-bar, .main-nav, .portfolio, header {
     display: flex;
-    flex-direction: column,
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-nav {
     
 }
+
 
 /* -------------- Media Queries -------------- */
