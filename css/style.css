@@ -2,38 +2,70 @@
 /* --------------- Universal ------------------*/
 
 * {
-    
+    box-sizing: border-box;
 }
 
 
 /* -------------- Main styles --------------- */
+body {
+    font-family: Arial;
+}
 header {
     background-color: lightgray;  
 }
-
+h1 {
+    margin: auto;
+    padding-top: 10px;
+}
+p {
+    padding: 10px;
+    text-align: center;
+}
+ul {
+    padding: 0px;
+}
 li {
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
+.main-nav li {
+    background-color: white;
+}
 a:hover {
     color: darkgrey;
 }
-
-.nav-bar, .main-nav, .portfolio, header {
+.nav-bar, 
+.main-nav, 
+.portfolio, 
+header, 
+.marketing, 
+.search, 
+.travel, 
+.map, 
+.photo-gallery, 
+.calculator, 
+.main-nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.main-nav {
-    
+.nav-bar {
+    display: inline;
 }
+.main-nav ul {
+}
+header img {
+    width: 200px;
+}
+img {
+    width: 275px;
+}
+
+
 
 
 /* -------------- Media Queries -------------- */
