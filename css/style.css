@@ -17,9 +17,15 @@ h1 {
     margin: auto;
     padding-top: 10px;
 }
+h3 {
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
 p {
+   text-align: center;
+}
+header p {
     padding: 10px;
-    text-align: center;
 }
 ul {
     padding: 0px;
@@ -32,7 +38,12 @@ a {
     color: black;
 }
 img {
+    max-width: 95%;
+}
+header img {
     max-width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;9
 }
 .main-nav li {
     background-color: white;
@@ -40,6 +51,16 @@ img {
 a:hover {
     color: darkgrey;
 }
+.block {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.block p {
+    margin-top: auto;
+}
+
+/* --------------- flex stuff --------------- */
+
 .nav-bar, 
 .main-nav, 
 .portfolio, 
