@@ -8,23 +8,25 @@
 
 /* -------------- Main styles --------------- */
 body {
-    font-family: Arial;
+    font-family: 'Work Sans', sans-serif;
     line-height: 1.45;
     font-weight: 200;
+    background-color: #FFFFFF;
 }
 header, footer {
-    background-color: lightgray;
+    background-color: #FAFAFA;
     min-width: 100vw;
     margin-top: -10px;
     margin-bottom: -10px;
 }
 h1 {
     margin: auto;
-    padding-top: 10px;
+    padding: 15px 40px 0px;
 }
 h2 {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .5px;
+    padding-top: 20px;
   }
 h3 {
     margin-top: 30px;
@@ -32,15 +34,23 @@ h3 {
 }
 p {
    text-align: center;
+   letter-spacing: -.1px;
 }
 header p {
     padding: 10px;
 }
 ul {
     padding: 0px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 li {
     list-style: none;
+    width: 95%;
+    margin: 4px;
+    padding: 10px 0px;
+    border-radius: 2px;
+    text-align: center;
 }
 a {
     text-decoration: none;
@@ -67,6 +77,18 @@ a:hover {
 .block p {
     margin-top: auto;
 }
+.contact {
+    border-bottom: 1px solid lightgray;
+    width: 90%;
+}
+.footer-nav {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+footer b {
+    color: gray;
+}
 
 /* --------------- flex stuff --------------- */
 
@@ -76,6 +98,7 @@ a:hover {
 header, 
 .block, 
 .main-nav ul,
+header ul,
 body,
 footer,
 .contact {
@@ -90,7 +113,8 @@ footer,
     justify-content:space-between;
 }
 
-.main-nav ul {
+.main-nav {
+    width: 100%;
 }
 /* header img {
     width: 200px;
