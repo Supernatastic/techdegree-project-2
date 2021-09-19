@@ -152,4 +152,19 @@ footer,
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+    .block {
+        flex: 1 300px;
+    }
+    .block p {
+        width: 80%;
+    }
+    footer p {
+        width: 70%;
+    }
 }
