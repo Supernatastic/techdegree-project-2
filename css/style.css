@@ -112,7 +112,8 @@ header,
 header ul,
 body,
 footer,
-.contact {
+.contact,
+.header-text-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,12 +151,16 @@ footer h2 {
     color: black;
 }
 
+/* .header-text-img {
+    display: flex;
+    flex-direction: column;
+} */
 
 
 /* -------------- Media Queries -------------- */
 
 @media (min-width: 768px) {
-    .main-nav ul, header {
+    .main-nav ul, header, .header-text-img {
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -203,17 +208,31 @@ footer h2 {
     }
     .header-text-img {
         display: flex;
-        padding: 0 10px;
+        padding: 0 20px 20px 10px;
         flex-wrap: wrap;
     }
     header img {
-        padding: 0;
+        padding: 20px;
         order: 1;
+        width: 47%;
     }
     header p {
         flex: 2;
+        margin: 10px;
+        text-align: left;
     }
-   
+    header ul li {
+        width: 18%;
+    }
  
 
+}
+
+@media (mid-width: 1024px) {
+
+
+    /* .block p {
+        align-self: flex-start;
+    }
+     */
 }
