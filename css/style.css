@@ -119,6 +119,12 @@ footer,
     justify-content: center;
     align-items: center;
 }
+body {
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
 
 /* .footer-nav {
     display: flex;
@@ -254,7 +260,7 @@ footer h2 {
         width: 50%;
         margin-top: 0;
     }
-    footer h2 {
+    .contact h2 {
         margin-top: 30px;
     }
     
