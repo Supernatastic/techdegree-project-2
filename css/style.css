@@ -81,7 +81,7 @@ a:hover {
     margin-top: 10px;
 }
 .block p {
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 .contact {
     border-bottom: 1px solid lightgray;
@@ -116,7 +116,7 @@ footer,
 .header-text-img {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 body {
@@ -178,7 +178,7 @@ footer h2 {
         background: none;
     }
     #portfolio {
-        flex-direction: row;
+        /* flex-direction: row; */
         flex-wrap: wrap;
     }
     .row {
