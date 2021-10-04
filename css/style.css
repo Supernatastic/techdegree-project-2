@@ -281,5 +281,8 @@ footer h2 {
     .block p {
         width: 85%;
     }
+    html {
+        max-width: 1260px;
+    }
    
 }
