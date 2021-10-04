@@ -80,9 +80,6 @@ a:hover {
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.block p {
-    /* margin-top: auto; */
-}
 .contact {
     border-bottom: 1px solid lightgray;
     width: 90%;
@@ -116,7 +113,6 @@ footer,
 .header-text-img {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 body {
@@ -125,13 +121,6 @@ body {
 main {
     flex: 1;
 }
-
-/* .footer-nav {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: row;
-} */
 .footer-div-2 {
     display: flex;
     justify-content: space-between;
@@ -157,10 +146,6 @@ footer h2 {
     color: black;
 }
 
-/* .header-text-img {
-    display: flex;
-    flex-direction: column;
-} */
 
 
 /* -------------- Media Queries -------------- */
@@ -181,7 +166,6 @@ footer h2 {
         background: none;
     }
     #portfolio {
-        /* flex-direction: row; */
         flex-wrap: wrap;
     }
     .row {
@@ -281,6 +265,21 @@ footer h2 {
     .contact h2 {
         margin-top: 30px;
     }
-    
+    main {
+        margin: 0 30px 0 30px;
+        background-color: #FFFFFF;
+    }
+    body {
+        background-color: #FAFAFA;
+    }
+    #portfolio {
+        padding: 0 20px;
+    }
+    #portfolio h2 {
+        padding: 40px 0 30px 0;
+    }
+    .block p {
+        width: 85%;
+    }
    
 }
