@@ -224,15 +224,35 @@ footer h2 {
     header ul li {
         width: 18%;
     }
+    .numbers {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .numbers p {
+        margin: 10px;
+    }
+    #email {
+        margin-bottom: 50px;
+    }
  
 
 }
 
-@media (mid-width: 1024px) {
-
-
-    /* .block p {
-        align-self: flex-start;
+@media (min-width: 1024px) {
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
     }
-     */
+    header p {
+        align-self: flex-start;
+        font-size: 1.25em;
+    }
+    footer p {
+        width: 50%;
+    }
+    
+   
 }
