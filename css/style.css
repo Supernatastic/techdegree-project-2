@@ -179,7 +179,7 @@ footer h2 {
         justify-content: center;
     }
     .block {
-        flex: 1 300px;
+        flex: 1 50%;
     }
     .block p {
         width: 80%;
@@ -272,17 +272,20 @@ footer h2 {
     body {
         background-color: #FAFAFA;
     }
-    #portfolio {
+    /* #portfolio {
         padding: 0 20px;
-    }
+    } */
     #portfolio h2 {
         padding: 40px 0 30px 0;
     }
     .block p {
         width: 85%;
     }
-    html {
+    /* html {
         max-width: 1260px;
+    } */
+    .block {
+        flex: 1 30%;
     }
    
 }
