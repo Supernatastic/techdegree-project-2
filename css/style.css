@@ -291,11 +291,12 @@ footer h2 {
         padding-right: 17px;
     }
     footer p {
-        width: 50%;
+        width: 60%;
         margin-top: 0;
+        font-size: 1.25em;
     }
     .contact h2 {
-        margin-top: 30px;
+        margin: 10px 0;
     }
     main {
         margin: 0 30px 0 30px;
@@ -331,6 +332,9 @@ footer h2 {
     }
     #portfolio h2 {
         padding: 60px 0 50px 0;
+    }
+    .numbers {
+        margin: 12px;
     }
    
 }
