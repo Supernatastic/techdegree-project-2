@@ -311,7 +311,7 @@ footer h2 {
         padding: 40px 0 30px 0;
     }
     .block p {
-        width: 85%;
+        width: 98%;
     }
     /* html {
         max-width: 1260px;
@@ -328,6 +328,9 @@ footer h2 {
     }
     .header-text-img {
         padding-bottom: 60px;
+    }
+    #portfolio h2 {
+        padding: 60px 0 50px 0;
     }
    
 }
