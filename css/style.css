@@ -252,12 +252,16 @@ footer h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
     }
     .numbers p {
         margin: 8px;
     }
     #email {
         margin-bottom: 50px;
+    }
+    .footer-title {
+        padding: 40px 0 20px 0;
     }
 
  
