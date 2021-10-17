@@ -17,7 +17,6 @@ body {
 }
 header, footer {
     background-color: #FAFAFA;
-    /* min-width: 100vw; */
     margin-top: -10px;
     margin-bottom: -10px;
 }
@@ -305,18 +304,12 @@ footer h2 {
     body {
         background-color: #FAFAFA;
     }
-    /* #portfolio {
-        padding: 0 20px;
-    } */
     #portfolio h2 {
         padding: 40px 0 30px 0;
     }
     .block p {
         width: 98%;
     }
-    /* html {
-        max-width: 1260px;
-    } */
     .block {
         flex: 1 30%;
     }
