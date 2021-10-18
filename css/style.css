@@ -20,6 +20,11 @@ header, footer {
     margin-top: -10px;
     margin-bottom: -10px;
 }
+footer {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
 h1 {
     margin: 0.5em 0 0.5em 0;
     padding: 15px 40px 0;
